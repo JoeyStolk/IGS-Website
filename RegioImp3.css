@@ -1,0 +1,71 @@
+/* dit is generale info over de body
+*/
+
+body {
+         padding-left: 11em;
+  font-family: Georgia; 
+          Times, serif;
+    color: Black;
+    /*
+	Link naar de achtergrond alfbeelding
+	*/
+	background-image: url("Afbeeldingen/RegioGebouw.jpg");
+}
+/*
+   Code voor de navigatie bar inclusief wat designing
+	*/
+html, body {
+	padding: 0px;
+	margin: 0px;
+}
+
+.btn {
+	outline: none !important;
+}
+
+.jumbotron {
+	background-image: url('../foto.jpg');
+	background-size: cover;
+	background-position: 0% 50%;
+	color: snow;
+	text-shadow: 1px 1px 3px #404040;
+}
+
+.plattegrond {
+	position: relative;
+	background-image: url('../plattegrond.jpg');
+	background-size: cover;
+	height: 468px;
+	width: 605px;
+	margin-bottom: 100px;
+}
+
+.pointer {
+	position: absolute;
+	width: 25px;
+	height: 25px;
+	border: 1px solid #CCCCCC;
+	background: #F0F0F0;
+	z-index: 20;
+}
+
+.start {
+	border: 1px solid #FF0000 !important;
+	background: #FFA5A5 !important;
+}
+
+.content {
+	display: none;
+	z-index: 30;
+	width: 200px;
+	min-height: 75px;
+	border: 1px solid #CCCCCC;
+	background: #F0F0F0;
+	padding: 10px;
+}
+#bar {
+     
+   position: relative;
+    left: 30px;
+    
+}

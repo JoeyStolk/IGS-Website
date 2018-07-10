@@ -1,0 +1,13 @@
+/* dit is generale info over de body
+*/
+
+body {
+         padding-left: 11em;
+  font-family: Georgia; 
+          Times, serif;
+    color: Black;
+    /*
+	Link naar de achtergrond alfbeelding
+	*/
+	background-image: url("Afbeeldingen/Kleur.jpg");
+}
